@@ -1,0 +1,36 @@
+<div class="DATOSTABLA">
+  <mat-form-field>
+    <input matInput (keyup)="applyFilter($event)" placeholder="Filter" />
+  </mat-form-field>
+</div>
+<div class="example-container mat-elevation-z8">
+  <mat-table [dataSource]="dataSource" matSort>
+    <ng-container matColumnDef="clase">
+      <mat-header-cell *matHeaderCellDef mat-sort-header>
+        Clase
+      </mat-header-cell>
+      <mat-cell *matCellDef="let row"> {{ row.clase }} </mat-cell>
+    </ng-container>
+    <ng-container matColumnDef="coche">
+      <mat-header-cell *matHeaderCellDef mat-sort-header>
+        Coche
+      </mat-header-cell>
+      <mat-cell *matCellDef="let row"> {{ row.coche }} </mat-cell>
+    </ng-container>
+    <ng-container matColumnDef="name">
+      <mat-header-cell *matHeaderCellDef mat-sort-header>
+        Name
+      </mat-header-cell>
+      <mat-cell *matCellDef="let row"> {{ row.name }} </mat-cell>
+    </ng-container>
+    <ng-container matColumnDef="propietario">
+      <mat-header-cell *matHeaderCellDef mat-sort-header>
+        Propietario
+      </mat-header-cell>
+      <mat-cell *matCellDef="let row"> {{ row.propietario }} </mat-cell>
+    </ng-container>
+    <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+    <mat-row *matRowDef="let row; columns: displayedColumns"> </mat-row>
+  </mat-table>
+  <mat-paginator [pageSizeOptions]="[5, 10, 25, 100]"></mat-paginator>
+</div>

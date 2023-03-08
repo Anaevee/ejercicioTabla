@@ -1,0 +1,59 @@
+{
+  "datos": [
+    {
+      "name": "usuario",
+      "coche": "ibiza",
+      "clase": 1,
+      "propietario": "juanje"
+    },
+    {
+      "name": "usuario",
+      "coche": "ibiza",
+      "clase": 1,
+      "propietario": "antonio"
+    },
+    {
+      "name": "usuario",
+      "coche": "mercedes",
+      "clase": 2,
+      "propietario": "ariel"
+    },
+    {
+      "name": "usuario",
+      "coche": "mercedes",
+      "clase": 2,
+      "propietario": "ana"
+    },
+
+    {
+      "name": "usuario",
+      "coche": "audi",
+      "clase": 3,
+      "propietario": "ana"
+    },
+    {
+      "name": "usuario",
+      "coche": "audi",
+      "clase": 3,
+      "propietario": "ana"
+    },
+    {
+      "name": "usuario",
+      "coche": "audi",
+      "clase": 3,
+      "propietario": "ana"
+    },
+    {
+      "name": "usuario",
+      "coche": "audi",
+      "clase": 3,
+      "propietario": "ana"
+    },
+    {
+      "name": "usuario",
+      "coche": "audi",
+      "clase": 3,
+      "propietario": "ana"
+    }
+  ]
+}

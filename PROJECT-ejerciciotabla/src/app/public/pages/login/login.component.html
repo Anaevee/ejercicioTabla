@@ -1,0 +1,7 @@
+<div class="contenedorPadre">
+  <form [formGroup]="inicioSesion" (ngSubmit)="guardarUsuario()">
+    <label class="formulario">Usuario </label>
+    <input type="text" formControlName="name" required />
+    <button mat-button type="submit">ENVIAR</button>
+  </form>
+</div>
